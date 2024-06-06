@@ -87,7 +87,7 @@ img {
     padding-block: 5rem 1rem;
 }
 
-.section__title {
+.sction__title {
     width: max-content;
     margin: 0 auto 2.5rem;
     font-size: var(--h2-font-size);
@@ -116,7 +116,7 @@ img {
     color: var(--title-color);
     font-weight: var(--semi-bold);
 }
-@media  screen and (max-width: 1023px) {
+@media  screen and (max-width: 1623px) {
     .nav__menu{
         position: fixed;
         bottom: 1.5rem;
@@ -190,4 +190,48 @@ img {
     height: 267px;
     opacity: 65%;
     transform: translateY(1px);
+}
+.home__star_1,
+.home__star_2{
+    position: absolute;
+    width: 50px;
+    fill: var(--title-color);
+}
+.home__star_1{
+    top: 2.5rem;
+    left: -3rem;
+    rotate: 15deg;
+}
+.home__star_2{
+    right: -3.5rem;
+    bottom: .75rem;
+    rotate: 15deg;
+}
+.home__profession{
+    transform: translateY(-1.6rem);
+}
+/* ABOUT */
+.about__button{
+    width: max-content;
+    color: var(--title-color);
+    font-size: var(--semi-bold);
+    display: flex;
+    align-items: center;
+    column-gap: .5rem;
+}
+.about__button i{
+    font-size: 1rem;
+}
+.about__button:hover,
+.about__social_link:hover{
+    text-decoration: underline;
+}
+.about__social{
+    display: flex;
+    column-gap: 1rem;
+}
+.about__social_link{
+    color: var(--title-color);
+    font-size: var(--small-font-size);
+    font-weight: var(--semi-bold);
 }
